@@ -11,7 +11,7 @@
   font-family: "Cutive Mono", monospace;
 
   font-style: normal;
-  /* font-family: 'Poppins', sans-serif; */
+
 }
 
 :root {
@@ -46,9 +46,7 @@ body {
   color: var(--text-color);
   /* background-color: red; */
   overflow-x: hidden;
-  .gradient {
-    background: linear-gradient(to bottom right, blue, pink);
-  }
+  
 }
 
 .header {
@@ -134,6 +132,7 @@ section {
 .home {
   
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -620,35 +619,90 @@ span {
 }
 
 /* BREAKPOINTS */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   html {
-    font-size: 55%;
+    font-size: 65%;
+
   }
 
+  .home .profession-container .profession-box {
+   
+ 
+    right: -8%;
+  }
+
+  .home .profession-container .overlay {
+    right: -4%;
+    
+  }
+
+  .home-img img {
+    bottom: 1%;
+    right: -4%;
+    height: 4rem ;
+    width: 4rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .home .profession-container .profession-box {
+    right: -14%;
+  }
+
+  .home .profession-container .overlay {
+    right: -5%;
+    
+  }
+  
+  .home .home-content {
+  
+    
+    max-width: 50rem;
+  }
+  .home-img img {
+    bottom: 1%;
+    right: -7%;
+    
+    }
+
+  .home .profession h3 {
+    font-size: 2.1rem;
+    line-height: 1;
+    font-weight: 600;
+  }
+  
+ 
+}
+@media (max-width: 1200px) ,( max-height:600px) {
   .home .profession-container .profession-box {
     right: -10%;
   }
 
   .home .profession-container .overlay {
-    right: -6%;
+    right: -5%;
+    
   }
-
+  
+  .home .home-content {
+  
+    
+    max-width: 45rem;
+  }
   .home-img img {
-    right: -90px;
+    max-height: fit-content;
+    bottom: -5%;
+    right: -5%;
+    
+    }
+
+  .home .profession h3 {
+    font-size: 2.1rem;
+    line-height: 1;
+    font-weight: 600;
   }
+  
+ 
 }
-
-@media (max-width: 1100px) {
-  .home .profession-container .profession-box {
-    right: -15%;
-  }
-
-  .home-img img {
-    max-width: 420px;
-    right: -40px;
-  }
-}
-
 @media (max-width: 1024px) {
  
   .header {
@@ -667,8 +721,12 @@ span {
     right: -12%;
   }
   .home-img img {
-    max-width: 420px;
-    right: -90px;
+    bottom: 1%;
+    right: -4%;
+    height: 4rem ;
+    width: 4rem;
+ 
+    
   }
 }
 
@@ -935,9 +993,48 @@ span {
   }
 }
 
-@media (max-width: 365px) {
+
+  
+  
+@media (max-width: 750px) {
   .body {
     overflow-x: hidden;
+  }
+  .about-img img {
+    width: 90vw;
+  }
+  .home-content  {
+    margin-top: 10%;
+
+  }
+  .home .profession-container .profession-box {
+    bottom: 4%;
+  }
+}
+
+@media (max-width: 600px) {
+  .body {
+    overflow-x: hidden;
+  }
+  .about-img img {
+    width: 90vw;
+  }
+  .home-content  {
+    margin-top: 20%;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .body {
+    overflow-x: hidden;
+  }
+  .home-content  {
+    margin-top: 20%;
+
+  }
+  .home-content h1 {
+    font-size: 3.5rem;
   }
   .about-img img {
     width: 90vw;
@@ -950,6 +1047,10 @@ span {
   }
   .home-content h1 {
     font-size: 4.5rem;
+  }
+  .home-content  {
+    margin-top: 20%;
+
   }
 }
 img {
