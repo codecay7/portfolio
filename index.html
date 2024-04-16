@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Responsive Portfolio Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <header class="header">
+        <a href="index.html" class="logo"><i class="fa-solid fa-user"></i></a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Namaste, I am</h3>
+            <h1>DIWAKAR KUMAR</h1>
+            <p>
+                A passionate web developer who create impactful digital solutions.
+                As a BCA student, I'm immersing myself in web development, with a particular focus on
+                mastering the MERN stack.
+            </p>
+            <br>
+            <!-- <p>"In this space, I showcase myself evolving in learning
+                technologies, pushing limits, and creating meaningful solutions." -->
+
+            <div class="social-media">
+                <a href="https://github.com/codecay7"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/codecay"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://x.com/codecay"><i><i class="fa-brands fa-x-twitter"></i></i></a>
+                <a href="https://www.instagram.com/codecay"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <!-- <i class='bx bx-camera'></i> -->
+
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Asp'MERN'</h3>
+                </div>
+                <!-- <div class="profession" style="--i:2;">
+                    <i class="fa-brands fa-blogger"></i>
+                    <h3>Bolgger</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+
+                    <i class="fa-solid fa-pen"></i>
+                    <h3>AI Artist</h3>
+                </div> -->
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hey there! Thanks for stopping by. I'm Diwakar Kumar, aspiring Full Stack developer [MERN] with a
+                passion for crafting
+                digital experiences. Currently, I'm delving into the fascinating world of MERN stack development,
+                striving to master its intricacies and unlock its full potential </h3>
+            <p>
+                This website serves as my platform to share insights, tips, and experiences from my journey in web
+                development. Whether it's tackling complex coding challenges or exploring the latest trends, I'm
+                dedicated to expanding my skills and pushing the boundaries of what's possible on the web. </p>
+            <p>
+                As a BCA student and avid blogger, I find joy in translating my learnings into digestible articles that
+                fellow developers can benefit from. From beginner-friendly tutorials to in-depth analyses, my goal is to
+                inspire and empower others on their coding quests.
+                <br>
+                Thank you for taking the time to explore my corner of the internet.
+            </p>
+            <a href="#contact" class="btn">Know More</a>
+        </div>
+    </section>
+
+
+
+    <div class="skills">
+        <h1> My<span> Skills</span></h1>
+        <section class="twisted-buttons">
+            <button>C</button>
+            <button>C++</button>
+            <button>Java</button>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>Tailwind</button>
+            <button>Js</button>
+            <button>React.Js[not yet]</button>
+            <button>Node.Js [not yet]</button>
+            <button>Database [not yet]</button>
+            <button>Communication</button>
+            <button>Git</button>
+            <button>Github</button>
+            <button>canva</button>
+            <button>blogs</button>
+        </section>
+    </div>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>"I build user-friendly websites and applications, ensuring fast, secure, and visually
+                    appealing. Using the latest tech, I create custom solutions to your needs."</p>
+                <a href="#contact" class="btn">Know More</a>
+
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>"I offer creative graphic design services, crafting visually stunning logos, branding materials, and
+                    promotional assets tailored to your brand's identity and objectives."
+
+                </p>
+                <a href="#contact" class="btn">Know More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>AI Image Creation</h3>
+                <p>"specialize in AI-powered image creation, generating high-quality visuals that captivate and engage
+                    audiences. I bring your ideas to life with
+                    cutting-edge technology."
+                </p>
+                <a href="#contact" class="btn">Know More</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Portfolio</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="xamPlan.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>xamPlan</h4>
+                    <p>"project leveraging HTML, CSS, and JavaScript to develop this interactive
+                        project with dynamic features and responsive design."
+                    </p>
+                    <!-- <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class='bx bx-link-external'></i> </a> -->
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Bubble Game.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Bubble Game</h4>
+                    <p>"project leveraging HTML, CSS, and JavaScript to develop this interactive
+                        project with dynamic features and responsive design."
+                    </p>
+                    <!-- <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class='bx bx-link-external'></i></a> -->
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="HUMBLE.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>HUMBLE</h4>
+                    <p>"project leveraging HTML, CSS, and JavaScript to develop this interactive
+                        project with dynamic features and responsive design."
+                    </p>
+                    <a href="https://github.com/codecay7/HUMBLE"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://effulgent-pika-9f0056.netlify.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="80f40e3a-f976-4f95-8b01-8aa05868f26a">
+
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <div class="h-captcha" data-captcha="true"></div>
+
+            <button class="btn" type="submit">Send Message</button>
+
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright © 2024 DIWAKAR. All Rights Reserved. </p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+
+    <!-- capcha js  -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+
+</html>
