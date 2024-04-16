@@ -139,7 +139,7 @@ section {
 .home .home-content {
   
   flex-wrap: wrap;
-  max-width: 55rem;
+  max-width: 54rem;
 }
 
 .home-content h3 {
@@ -220,7 +220,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: professionRotate 10s ease-out infinite;
+  animation: professionRotate 6s ease-out infinite;
 }
 
 @keyframes professionRotate {
